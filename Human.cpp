@@ -17,3 +17,8 @@ char Human::makeMove()
     std::cin >> move;
     return move;
 }
+
+string Human::getName() 
+{
+    return name;
+}

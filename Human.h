@@ -3,13 +3,15 @@
 #include<string>
 using namespace std;
 #include "Player.h"
-class Human: pulbic Player
+class Human: public Player
 {
     public:
+    char move;
+    string name;
     Human();
     Human(string name);
     char makeMove();
-
+    string getName();
 };
 
 #endif

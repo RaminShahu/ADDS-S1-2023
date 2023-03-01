@@ -1,5 +1,6 @@
 #include "Player.h"
 #include <string>
+#include "Computer.h"
 using namespace std;
 Computer::Computer()
 {
@@ -7,6 +8,11 @@ Computer::Computer()
 }
 char Computer::makeMove()
 {
-     move = 'R';
-    return this->move;
+
+    return 'R';
+}
+
+string Computer::getName() 
+{
+    return name;
 }
