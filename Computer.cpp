@@ -9,7 +9,6 @@ Computer::Computer()
 }
 char Computer::makeMove()
 {
-    
     return move;
 }
 
