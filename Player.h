@@ -5,7 +5,7 @@
 using namespace std;
 class Player 
 {
-    public:
+    protected:
     char move;
     string name;
     virtual char makeMove() = 0;
