@@ -6,7 +6,7 @@ using namespace std;
 Human::Human()
 {
     name = "Human";
-    move = 'R';
+    
 }
 Human::Human(string name)
 {
