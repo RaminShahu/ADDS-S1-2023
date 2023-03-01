@@ -14,6 +14,6 @@ Human::Human(string name)
 char Human::makeMove()
 {
     std::cout << "Enter move:";
-    std::cin >> this->move;
-    return this->move;
+    std::cin >> move;
+    return move;
 }

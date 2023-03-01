@@ -11,6 +11,4 @@ class Computer: public Player
 
 };
 
-
-
 #endif
