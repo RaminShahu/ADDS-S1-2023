@@ -1,13 +1,12 @@
 #include "Player.h"
-
+#include <string>
 using namespace std;
-
 Computer::Computer()
 {
-    this->name = "Computer";
+    name = "Computer";
 }
 char Computer::makeMove()
 {
-    this->move = 'R';
+     move = 'R';
     return this->move;
 }
