@@ -10,7 +10,7 @@ Referee::Referee()
 
 }
 Player* Referee::refGame(Player *player1, Player *player2) {
-    if (player1->makeMove() == player2->makeMove()) return NULL;
+    if (player1->move == player2->move) return NULL;
 
     return player1;
 }
