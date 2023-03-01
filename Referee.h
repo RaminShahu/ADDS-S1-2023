@@ -10,7 +10,6 @@ class Referee {
     if (player1->move == player2->move) {
       return nullptr;
     }
-
     if (player1->move == 'R' && player2->move == 'S') {
       return player1;
     } else if (player1->move == 'S' && player2->move == 'P') {
