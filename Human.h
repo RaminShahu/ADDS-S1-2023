@@ -6,12 +6,9 @@ using namespace std;
 class Human: public Player
 {
     public:
-    char move;
-    string name;
     Human();
     Human(string name);
     char makeMove();
-    string getName();
 };
 
 #endif

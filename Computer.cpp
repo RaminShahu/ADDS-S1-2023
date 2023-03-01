@@ -5,14 +5,11 @@ using namespace std;
 Computer::Computer()
 {
     name = "Computer";
+    move = 'R';
 }
 char Computer::makeMove()
 {
-
-    return 'R';
+    
+    return move;
 }
 
-string Computer::getName() 
-{
-    return name;
-}

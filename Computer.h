@@ -6,11 +6,8 @@
 class Computer: public Player
 {
     public:
-    char move;
-    string name;
     Computer();
     char makeMove();
-    string getName();
 
 };
 
