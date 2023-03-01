@@ -1,8 +1,8 @@
-#ifndef REFREE_H
-#define REFREE_H
+
 #include "Player.h"
 #include "Computer.h"
 #include "Referee.h"
+#include<string>
 Referee::Refeere()
 {
 
@@ -28,6 +28,3 @@ Player* Referee::refGame(Player* player1, Player* player2)
     }
     return player2;
 }
-
-
-#endif
