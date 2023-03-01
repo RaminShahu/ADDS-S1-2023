@@ -10,8 +10,9 @@ Referee::Referee()
 
 }
 Player* Referee::refGame(Player *player1, Player *player2) {
-    if (player1->move == player2->move) {
-      return nullptr;
+    if (player1->move == player2->move) 
+    {
+      return player1;
     }
     if (player1->move == 'R' && player2->move == 'S') {
       return player1;
