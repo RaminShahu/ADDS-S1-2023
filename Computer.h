@@ -3,11 +3,12 @@
 #include "Player.h"
 #include<string>
 #include<iostream>
+#include "Move.h"
 class Computer: public Player
 {
     public:
     Computer();
-    char makeMove();
+    Move* makeMove();
 };
 
 #endif

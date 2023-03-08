@@ -5,9 +5,10 @@ using namespace std;
 Computer::Computer()
 {
     name = "Computer";
-    move = 'R';
+    move = "Rock";
 }
-char Computer::makeMove()
+Move* Computer::makeMove()
 {
-    return move;
+     Move* rock = new Rock;
+    return rock;
 }
