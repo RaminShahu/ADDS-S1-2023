@@ -8,10 +8,7 @@ class Move
     public:
     string moveName;
     vector<string> beats;
-    string getName()
-    {
-        return moveName;
-    }
+    string getName();
 };
 
 #endif
