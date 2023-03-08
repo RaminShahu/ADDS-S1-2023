@@ -11,6 +11,7 @@ class Zombie:public Move
         moveName = "Zombie";
         beats.push_back("Pirate");
         beats.push_back("Monkey");
+
    
     }
 };
