@@ -10,5 +10,5 @@ Computer::Computer()
 Move* Computer::makeMove()
 {
      Move* rock = new Rock;
-    return rock;
+     return rock;
 }
