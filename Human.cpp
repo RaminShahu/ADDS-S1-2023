@@ -17,6 +17,7 @@ Move* Human::makeMove()
 {
    // std::cout << "Enter move: ";
     std::cin >> move;
+    // Checking which move object to return
     if (move == "Rock")
     {
         Move* rock = new Rock;
